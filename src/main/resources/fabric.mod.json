@@ -1,4 +1,4 @@
-d{
+{
 	"schemaVersion": 1,
 	"id": "spectral-sync",
 	"version": "${version}",
