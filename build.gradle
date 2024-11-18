@@ -48,9 +48,6 @@ dependencies {
     modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
 
     // Mod Dependencies
-    modImplementation "maven.modrinth:3rc31Hgo:W5hqOrTM"
-    modImplementation "maven.modrinth:AdditionalEntityAttributes:${project.additional_entity_attributes_version}"
-    modImplementation "com.github.Noaaan:Matchbooks:${project.matchbooks_version}"
     modImplementation "vazkii.patchouli:Patchouli:${project.patchouli_version}-FABRIC"
     modApi("me.shedaniel.cloth:cloth-config-fabric:${project.clothconfig_version}") {
         exclude(group: "net.fabricmc.fabric-api")
